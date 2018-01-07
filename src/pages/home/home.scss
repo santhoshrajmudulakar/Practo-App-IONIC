@@ -1,3 +1,45 @@
 page-home {
-
+  
+    .toolbar-background-md {
+  
+    background: #28318C;
+}
+    .bar-button-default-md, .bar-button-clear-md-default, .bar-button-md-default {
+    color: #ffffff;
+    background-color: transparent;
+}
+select{    color: #fff;
+    background-color: #28318c;
+    border: none;}
+    .searchbar-md .searchbar-input{
+        border-radius: 10px;
+            padding: 3px 41px;
+    }
+    .searchbar-md {
+    background: #28318c;
+    padding: 8px;
+}
+.searchbar-md .searchbar-search-icon {
+    left: 16px;
+    top: 8px;
+   
+}
+.button-round-md {
+    border-radius: 64px;
+    padding: 10px;
+    margin: 0;
+}
+.button-md{
+    font-size: 10px;
+    background-color: #444EA5;
+}
+.filter{
+    position: relative;
+    top: 12px;
+        font-size: 11px;
+    color: #fff;
+}
+.row{
+    background-color: #28318c;
+}
 }
