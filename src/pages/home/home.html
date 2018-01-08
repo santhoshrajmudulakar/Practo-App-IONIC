@@ -52,10 +52,45 @@
       </div>
       
 </ion-header>
+<ion-content>
+<ion-slides (ionSlideDidChange)="slideChanged()">
+  <ion-slide>
+  <ion-grid>
+  
+  <ion-row>
+    <ion-col col-6>
+        <ion-card class="left-wrapper">
+            <ion-list><b>Smile Again</b></ion-list>
+            <ion-list class="text-opa">ssd</ion-list>
+            
+               
+        </ion-card>
 
-
-
-  <ion-content class="padding">
+    </ion-col>
+    <ion-col col-6>
+      2 of 3
+    </ion-col>
+   
+  </ion-row>
+  <div class="pull-left">
+       <span><img src="assets/hotel.jpg"/></span>
+                <span><img src="assets/hotel.jpg"/></span>
+                <span><img src="assets/hotel.jpg"/></span>
         
-          
-        </ion-content>
+  </div>
+  <div class="free">
+       <ion-card class="left-wrapper">  <ion-list class="text-opa">Free * 70 Views</ion-list>
+            
+               
+        </ion-card>
+  </div>
+</ion-grid>
+  </ion-slide>
+  <ion-slide>
+    <h1>Slide 2</h1>
+  </ion-slide>
+  <ion-slide>
+    <h1>Slide 3</h1>
+  </ion-slide>
+</ion-slides>
+</ion-content>
