@@ -42,4 +42,25 @@ select{    color: #fff;
 .row{
     background-color: #28318c;
 }
+.see-results, .grid_row{
+    background-color: #3250D2;
+}
+.see-results{
+    padding:15px;
+    color: #fff;
+    letter-spacing:0.5px;
+}
+.grid_row{
+    
+}
+.bg-row{
+    
+    background-color: #28318c;
+    padding-bottom: 8px;
+}
+.location{
+       background-color: #3250D2;
+    border: solid 1px #fff;
+    border-radius: 0;
+}
 }
