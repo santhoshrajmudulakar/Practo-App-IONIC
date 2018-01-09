@@ -16,7 +16,7 @@ export class HomePage {
 
   }
    goToSlide() {
-    this.slides.slideTo(3, 500);
+    this.slides.slideTo(3, 10);
   }
   slideChanged() {
     let currentIndex = this.slides.getActiveIndex();
