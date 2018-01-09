@@ -16,11 +16,11 @@ export class HomePage {
 
   }
    goToSlide() {
-    this.slides.slideTo(2, 500);
+    this.slides.slideTo(3, 500);
   }
   slideChanged() {
     let currentIndex = this.slides.getActiveIndex();
-    console.log('Current index is', currentIndex);
+   
   }
    ngAfterViewInit() {
     this.slides.freeMode = true;
